@@ -14,8 +14,8 @@ function Home() {
       .then((data) => {
         setItems(data);
         setLoadStatus(true);
-      }, []);
-  });
+      });
+  }, []);
 
   return (
     <>
